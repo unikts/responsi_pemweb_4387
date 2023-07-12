@@ -55,9 +55,9 @@ const props = defineProps({
     <nav class="bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
-                <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                <!-- <img src="webprofil\public\img\logoku.png" class="h-8 mr-3" alt=" Logo" /> -->
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">WebProfile</span>
+                <!-- <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" /> -->
+                <img src="img/logoku.png" class="h-8 mr-3" alt=" Logo"/>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">MyProfile</span>
             </a>
             <div class="flex md:order-2">
                 <div v-if="canLogin">
@@ -193,8 +193,8 @@ const props = defineProps({
                         <Logo />
                     </div>
                     <div className="text-sm text-gray-600">
-                        <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                        <img src="img/logoku.png" class="h-8 mr-3" alt=" Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">MyProfile</span>
                     </div>
                 </div>
                 <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
